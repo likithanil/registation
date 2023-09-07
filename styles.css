@@ -1,0 +1,90 @@
+.card {
+    width: 500px;
+    border: 1px solid lightgray;
+    /* height: 81vh; */
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-img {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input {
+    width: 47%;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+
+}
+
+#btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+#alert {
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-radius: 10px 0 0 10px;
+    width: 160px;
+    padding: 6px;
+    position: fixed;
+    right: 0;
+    margin-top: -80px;
+    animation-name: alert;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards;
+}
+
+.d-none {
+    display: none;
+}
+
+@keyframes alert {
+    100% {
+        margin-top: 80px;
+    }
+}
+
+.sucess {
+    background-color: rgb(60, 189, 60);
+    color: white;
+}
+
+
+.danger {
+    background-color: rgb(197, 56, 56);
+    color: white;
+}
+
+/* #usersBox{
+
+} */
+
+.userDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    width: 520px;
+    border: 1px solid lightgray;
+    background-color: lightgrey;
+    border-radius: 8px;
+}
